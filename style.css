@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+#socialmedia a {
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
+
+}
+
+#navigation-bar {
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(255, 255, 255, .7);
+    width: 100%;
+}
+
+#navigation-bar a{
+    text-decoration: none;
+    color: black  
+}
+
+#navigation-bar h1 {
+    font-size: 20px;
+}
+
+#navigation-bar h3 {
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 3px solid gray;
+    background-color: gray;
+    padding:5px ;
+}
+
+#main{
+    background-image: url("starwars1.jpeg");
+    width: 100%; 
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+}
+
+#application{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    background-image: url(apply-background.jpeg);
+    background-size: cover;
+}
+
+#application i{
+    font-size: 50px;
+}
+
+#info{
+    border: solid black;
+    z-index: 8;
+    background-color: black;
+    color: white;
+}
+
+#socialmedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#crawl{
+    color: rgb(249, 218, 101);
+    background-color: black;
+    line-height: 2;
+    font-size:60px;
+    text-align:center;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+p{
+    width: 800px;
+    margin: auto;
+}
+
+#crawl div {
+    height: 200px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 9;
+   
+}
+
+#pathway{
+    font-size:40px;
+    text-align:center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    background-color: black;
+    color: rgb(249, 218, 101);
+}
+
+#pathway h1{
+    font-size: 80px;
+}
+
+#jedi{
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+
+#pathway i{
+    font-size: 100px;
+}
+
+#planet-database{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    background-image: url(starwars-hud.jpeg);
+}
